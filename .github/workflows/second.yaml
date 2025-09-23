@@ -10,7 +10,7 @@ jobs:
       - name: Checkout Code
         uses: actions/checkout@v2
       - name: Print Date
-        run: echo "Current Date: $(date)"
+        run: "echo Current Date: $(date)"
     job2:
       name: job two
       runs-on: windows-latest
@@ -41,5 +41,5 @@ jobs:
       - name: Checkout Code
         uses: actions/checkout@v2
       - name: print date
-        run: echo "Current Date: $(date)"
+        run: "echo Current Date: $(date)"
 
